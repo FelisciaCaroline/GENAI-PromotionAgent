@@ -160,7 +160,6 @@ export function Pricing() {
   return (
     <section id="harga" className="mx-auto max-w-5xl px-4 py-16">
       <h2 className="text-center font-display text-3xl lowercase md:text-5xl">harga yang <Highlight>ramah kantong</Highlight></h2>
-      <p className="mt-2 text-center text-xs text-ink/50">Harga contoh untuk demo.</p>
       <div className="mt-8 grid gap-4 md:grid-cols-3">
         {PLANS.map((p) => (
           <BrandCard key={p.n} tone={p.tone} className="relative">
